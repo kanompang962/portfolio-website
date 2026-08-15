@@ -26,7 +26,20 @@ const Career = () => {
               <div className="career-info-in">
                 <div className="career-role">
                   <h4>{exp.position}</h4>
-                  <h5>{exp.company}</h5>
+                  <h5>
+                    {exp.companyUrl ? (
+                      <a
+                        href={exp.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-cursor="disable"
+                      >
+                        {exp.company}
+                      </a>
+                    ) : (
+                      exp.company
+                    )}
+                  </h5>
                 </div>
                 <h3>{getDisplayYear(exp.period)}</h3>
               </div>

@@ -1,192 +1,169 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Thianchai",
+        fullName: "Thianchai Chamnan",
+        title: "Software Developer",
+        description: "Full-stack Web Developer specializing in Angular and .NET, building enterprise-grade systems for government and industrial clients."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        email: "thianchaichamnan@gmail.com",
+        phone: "093-1177457",
+        location: "Ladyao, Chatuchak, Bangkok"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Full-stack Web Developer specializing in Angular and .NET, building enterprise-grade systems for government and industrial clients such as Thai Oil. I design scalable architecture and integrate complex systems (Azure AD, SAP, Oracle) to deliver reliable, user-focused solutions from requirement gathering all the way to production. I hold a Bachelor of Computer Science from Mahasarakham University and enjoy turning complicated business workflows into software people actually want to use."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Software Developer",
+            company: "Advanced Digital Business (ADB)",
+            companyUrl: "http://adb-thailand.com/",
+            period: "Present",
+            location: "Bangkok, Thailand",
+            description: "Developed and maintained enterprise-grade web applications for Thai Oil, one of Thailand's largest energy companies, supporting mission-critical safety, operations, and corporate travel functions.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Engineered e-PHA (Electronic Process Hazard Analysis), a platform for identifying and assessing operational risks and hazards across industrial production processes",
+                "Delivered RMIS (Risk Management Information System) to centralize risk tracking, reporting, and analytics",
+                "Designed and built a full-stack Car Service Management System for vehicle booking and dispatch with multi-level approvals and automated reporting",
+                "Built TOP e-Biz, an enterprise travel & expense platform covering the full trip lifecycle, integrated with SAP, Azure AD, and Exchange",
+                "Architected system workflows, relational database schemas, and responsive user interfaces to ensure scalability and maintainability",
+                "Collaborated with cross-functional stakeholders to translate business requirements into reliable, production-ready solutions"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Angular", ".NET 8", "C#", "Oracle", "Azure AD SSO", "SAP"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            position: "Web Developer",
+            company: "RisePlus Technology",
+            companyUrl: "https://riseplus.tech/",
             period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            location: "Thailand",
+            description: "Built web and mobile systems for public sector, healthcare, and agriculture clients, working end to end from UX/UI through backend delivery.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Developed a student transportation management system deployed across Khon Kaen province to coordinate school commutes",
+                "Designed and implemented the UX/UI for a Parkinson's disease screening system, focusing on accessibility and ease of use for patients and clinicians",
+                "Built a satellite image management system integrated with GISTDA (Geo-Informatics and Space Technology Development Agency)",
+                "Contributed to the development of Smart Farm and POS systems",
+                "Collaborated with cross-functional teams to deliver scalable, user-friendly solutions"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["Angular", "PHP", "MySQL", "Flutter", "UX/UI"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
+            position: "Bachelor of Computer Science",
+            company: "Mahasarakham University",
+            companyUrl: "",
             period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            location: "Maha Sarakham, Thailand",
+            description: "Graduated with a Bachelor of Computer Science. Senior project: a full-stack system to manage and track agricultural pest outbreaks with real-time data collection and map-based monitoring.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Developed a full-stack system to manage and track agricultural pest outbreaks, supporting real-time data collection and monitoring",
+                "Integrated the Google Maps API to visualize outbreak locations and map the geographic spread of infestations",
+                "Built cross-platform mobile and backend applications using Flutter, PHP, and MySQL",
+                "Designed the data model and workflows around usability and efficient data management for practical agricultural use"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Flutter", "PHP", "MySQL", "Google Maps API"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "TOP e-Biz",
+            category: "Enterprise / Travel & Expense",
+            technologies: "Angular, .NET 8, Oracle, SAP, Azure AD, Exchange",
+            image: "/images/adb/ebiz.png",
+            description: "An enterprise travel & expense management platform covering the full trip lifecycle — requests, multi-level approvals, bookings, and reimbursements — integrated with SAP, Azure AD, and Exchange.",
+            link: ""
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "TOP e-PHA",
+            category: "Enterprise / Process Safety",
+            technologies: "Angular, .NET, Oracle, Azure AD SSO",
+            image: "/images/adb/epha.png",
+            description: "Electronic Process Hazard Analysis — a platform for identifying and assessing operational risks and hazards across industrial production processes, strengthening safety compliance and decision-making.",
+            link: ""
+        },
+        {
+            id: 3,
+            title: "TOP RMIS",
+            category: "Enterprise / Risk Management",
+            technologies: "Angular, .NET, Oracle, Reporting & Analytics",
+            image: "/images/adb/rmis.png",
+            description: "Risk Management Information System that centralizes risk tracking, reporting, and analytics, enabling data-driven organizational decision-making.",
+            link: ""
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "Car Service Management",
+            category: "Enterprise / Full-Stack",
+            technologies: "Angular, .NET, Oracle, Azure AD SSO",
+            image: "/images/adb/carservice.png",
+            description: "A full-stack vehicle booking and dispatch system featuring driver/vehicle assignment, multi-level approvals, calendar scheduling, and automated reporting.",
+            link: ""
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
+            title: "IGS Tool",
+            category: "GIS / Government",
+            technologies: "Web Application, GIS, GISTDA Integration",
+            image: "/images/riseplus/gisda.png",
+            description: "A satellite image management system integrated with GISTDA (Geo-Informatics and Space Technology Development Agency) for storing, browsing, and managing imagery.",
+            link: ""
         },
         {
             id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
+            title: "KKVS Admin",
+            category: "Government / Web System",
+            technologies: "Web Application, PHP, MySQL, Maps",
+            image: "/images/riseplus/kkvs.png",
+            description: "A student transportation management system deployed across Khon Kaen province to coordinate school commutes for students, drivers, and schools.",
+            link: "https://kkvs.dev.riseplus.tech/"
         },
         {
             id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
+            title: "KKU PD",
+            category: "Healthcare / UX-UI",
+            technologies: "UX/UI Design, Accessibility, Web Application",
+            image: "/images/riseplus/parkinson.png",
+            description: "UX/UI design and implementation for a Parkinson's disease screening system, focused on accessibility and ease of use for both patients and clinicians.",
+            link: "https://pd.kku.ac.th/home"
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
+            title: "Smart Farm & POS",
+            category: "IoT / Retail",
+            technologies: "Web Application, PHP, MySQL, REST API",
+            image: "/images/placeholder.webp",
+            description: "Contributed to the development of Smart Farm monitoring and point-of-sale systems, delivering scalable and user-friendly solutions with cross-functional teams.",
+            link: ""
+        },
+        {
+            id: 9,
+            title: "Pest Outbreak Tracker",
+            category: "Agriculture / Mobile",
+            technologies: "Flutter, PHP, MySQL, Google Maps API",
+            image: "/images/placeholder.webp",
+            description: "A full-stack system to manage and track agricultural pest outbreaks with real-time data collection, plus Google Maps visualization of outbreak locations and geographic spread.",
             link: ""
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "thianchaichamnan@gmail.com",
+        phone: "093-1177457",
+        location: "230/12 Ladyao, Chatuchak, Bangkok"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "FULL-STACK",
+            description: "Enterprise web applications end to end",
+            details: "Building enterprise-grade systems with Angular on the front end and .NET / ASP.NET Core on the back end — from requirement gathering and workflow design through responsive UI, REST APIs, and production deployment.",
+            tools: ["Angular", "TypeScript", "RxJS", "Angular Material", "TailwindCSS", "C#", ".NET / ASP.NET Core", "EF Core", "Dapper", "REST API"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "SYSTEMS & DATA",
+            description: "Architecture, databases & integration",
+            details: "Designing relational database schemas and system workflows for scalability and maintainability, and integrating enterprise platforms such as Azure AD SSO, SAP, and Exchange with reliable deployment on Docker and Windows/Linux servers.",
+            tools: ["Oracle", "SQL Server", "PostgreSQL", "MySQL", "Azure AD (SSO)", "SAP Integration", "Docker", "Git", "VPS (Ubuntu / Windows Server)", "RDP"]
         }
     }
 };
-
-

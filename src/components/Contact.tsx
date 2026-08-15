@@ -68,57 +68,27 @@ const Contact = () => {
                 {config.contact.email}
               </a>
             </p>
-            <h4>Location</h4>
+            <h4>Phone</h4>
             <p>
-              <span>{config.social.location}</span>
+              <a href={`tel:${config.contact.phone}`} data-cursor="disable">
+                {config.contact.phone}
+              </a>
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Location</h4>
+            <p>
+              <span>{config.contact.location}</span>
+            </p>
+            <h4>Resume</h4>
             <a
-              href={config.contact.github}
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Facebook <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              Download CV <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
